@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Персональна сторінка викладача</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site">
+
+  <header class="header">
+    <div class="brand">
+      <svg class="brand-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linejoin="round">
+        <path d="M5 3h13a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H5z"/>
+        <path d="M5 17h14M5 3v18"/>
+      </svg>
+      <div class="brand-text">
+        <strong>Кафедра комп’ютерних наук</strong>
+        <span>Персональна сторінка викладача</span>
+      </div>
+    </div>
+    <nav class="menu">
+      <a href="#bio">Біографія</a>
+      <a href="#disciplines">Дисципліни</a>
+      <a href="#schedule">Розклад</a>
+      <a href="#publications">Публікації</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+
+    <main class="content">
+
+      <section id="bio">
+        <div class="person">
+          <img src="photo.jpg" alt="Ковальчук Олександр Петрович">
+          <div class="person-text">
+            <strong>Ковальчук Олександр Петрович</strong>
+            <span>Кандидат технічних наук, доцент</span>
+          </div>
+        </div>
+        <h3>Про викладача:</h3>
+        <p>Науково-педагогічний стаж понад 10 років. Сфера наукових інтересів: проєктування програмних систем, вебтехнології, алгоритми штучного інтелекту та моделювання бізнес-процесів.</p>
+        <p>Закінчив Національний технічний університет, здобув ступінь кандидата технічних наук за спеціальністю «Інформаційні технології». Автор понад 20 наукових та навчально-методичних праць, учасник міжнародних конференцій з програмної інженерії та вебтехнологій.</p>
+        <p>Керує курсовими та дипломними роботами студентів, бере участь у розробленні навчальних програм кафедри. Практичний досвід включає участь у комерційних проєктах із розроблення вебзастосунків, тому на заняттях поєднує теорію з реальними прикладами з індустрії.</p>
+        <p>Особливу увагу приділяє формуванню в студентів навичок командної роботи, написання чистого коду та презентації результатів власних проєктів.</p>
+      </section>
+
+      <section id="disciplines">
+        <h3>Навчальні дисципліни:</h3>
+        <div class="disciplines">
+
+          <div class="discipline">
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#8e2421" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 14L6 32l16 18M42 14l16 18-16 18"/>
+            </svg>
+            <p>Веброзробка та дизайн інтерфейсів</p>
+            <div class="popup">
+              <h4>Веброзробка та дизайн інтерфейсів</h4>
+              <p>Вивчення стандартів семантичної верстки HTML5 та сучасної стилізації CSS3 (Flexbox, Grid), створення прототипів у Figma, проєктування адаптивних вебсторінок та базова робота з клієнтським JavaScript.</p>
+            </div>
+          </div>
+
+          <div class="discipline">
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#8e2421" stroke-width="3.5" stroke-linejoin="round">
+              <path d="M32 6l24 13v26L32 58 8 45V19z"/>
+              <path d="M8 19l24 13 24-13M32 32v26"/>
+            </svg>
+            <p>Об'єктно-орієнтоване програмування</p>
+            <div class="popup">
+              <h4>Об'єктно-орієнтоване програмування</h4>
+              <p>Принципи ООП: інкапсуляція, успадкування, поліморфізм. Проєктування класів та інтерфейсів, робота з патернами проєктування, написання програм мовою Java.</p>
+            </div>
+          </div>
+
+          <div class="discipline">
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#8e2421" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M52 34v14a6 6 0 0 1-6 6H16a6 6 0 0 1-6-6V18a6 6 0 0 1 6-6h24"/>
+              <path d="M22 30l10 10L58 10"/>
+            </svg>
+            <p>Архітектура та тестування програмного забезпечення</p>
+            <div class="popup">
+              <h4>Архітектура та тестування програмного забезпечення</h4>
+              <p>Архітектурні стилі та шаблони, розроблення технічної документації, модульне та інтеграційне тестування, автоматизація перевірок якості програмного коду.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="schedule">
+        <h3>Розклад консультацій та пар:</h3>
+        <ul class="schedule">
+          <li><b>Понеділок</b> 10:00 – 11:35 • Лекція, ауд. 312</li>
+          <li><b>Середа</b> 12:00 – 13:35 • Лабораторні роботи, комп. клас 4</li>
+          <li><b>П'ятниця</b> 14:00 – 15:30 • Консультації для студентів</li>
+        </ul>
+      </section>
+
+    </main>
+
+    <aside class="aside">
+
+      <div class="aside-top">
+        <section id="publications">
+          <h2>Наукові публікації</h2>
+          <ol>
+            <li>Ковальчук О. П. Сучасні підходи до верстки та оптимізації вебзастосунків // Вісник науки. — 2024.</li>
+            <li>Ковальчук О. П., Сидоренко І. В. Моделювання адаптивних інтерфейсів у системному аналізі. — 2025.</li>
+            <li>Методичні вказівки до лабораторних робіт із дисципліни «Основи веброзробки». — 2026.</li>
+            <li>Ковальчук О. П. Оптимізація та тестування фронтенд-архітектури вебзастосунків // Комп'ютерні науки та інженерія. — 2026.</li>
+          </ol>
+        </section>
+
+        <section class="contacts">
+          <h2>Контакти</h2>
+          <p>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#8e2421"><path d="M2 5h20v14H2z"/><path d="M2 6l10 8 10-8" fill="none" stroke="#fff" stroke-width="2"/></svg>
+            o.kovalchuk@univ.edu.ua
+          </p>
+          <p>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#8e2421"><path d="M12 1a8 8 0 0 0-8 8c0 6 8 14 8 14s8-8 8-14a8 8 0 0 0-8-8z"/><circle cx="12" cy="9" r="3" fill="#fff"/></svg>
+            Ауд. 405 (Головний корпус)
+          </p>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <p>© 2026 Персональна сторінка викладача.<br>Усі права захищено.</p>
+        <p><a href="#">Google Scholar</a> | <a href="#">ORCID</a> | <a href="#">GitHub</a></p>
+      </footer>
+
+    </aside>
+  </div>
+
+</div>
+</body>
+</html>
